@@ -1,5 +1,7 @@
 name: GitHub Actions labwork
-on: [push]
+on:
+  push:
+    branches: [ "branch" ]
 jobs:
   build:
     runs-on: ubuntu-latest
