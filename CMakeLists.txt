@@ -11,5 +11,9 @@ add_executable(main main.cpp)
 
 target_link_libraries(untitled ${LIBRARIES})
 target_link_libraries(untitled gtest gtest_main)
+
+target_include_directories(untitled PUBLIC ${PROJECT_SOURCE_DIR})
+
 include(GoogleTest)
+
 gtest_discover_tests(untitled)
