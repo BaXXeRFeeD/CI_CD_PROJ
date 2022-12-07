@@ -1,10 +1,10 @@
-Start testing: Dec 08 01:33 RTZ 2 (ceia)
+Start testing: Dec 08 01:56 RTZ 2 (ceia)
 ----------------------------------------------------------
 1/6 Testing: OperationTests.SumTest
 1/6 Test: OperationTests.SumTest
 Command: "C:/Users/vova_/CLionProjects/untitled/cmake-build-debug/untitled.exe" "--gtest_filter=OperationTests.SumTest" "--gtest_also_run_disabled_tests"
 Directory: C:/Users/vova_/CLionProjects/untitled/cmake-build-debug
-"OperationTests.SumTest" start time: Dec 08 01:33 RTZ 2 (ceia)
+"OperationTests.SumTest" start time: Dec 08 01:56 RTZ 2 (ceia)
 Output:
 ----------------------------------------------------------
 Running main() from C:/Users/vova_/CLionProjects/untitled/google_test/googletest/src/gtest_main.cc
@@ -23,7 +23,7 @@ Note: Google Test filter = OperationTests.SumTest
 Test time =   0.07 sec
 ----------------------------------------------------------
 Test Passed.
-"OperationTests.SumTest" end time: Dec 08 01:33 RTZ 2 (ceia)
+"OperationTests.SumTest" end time: Dec 08 01:56 RTZ 2 (ceia)
 "OperationTests.SumTest" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -31,7 +31,7 @@ Test Passed.
 2/6 Test: OperationTests.SumTestFalse
 Command: "C:/Users/vova_/CLionProjects/untitled/cmake-build-debug/untitled.exe" "--gtest_filter=OperationTests.SumTestFalse" "--gtest_also_run_disabled_tests"
 Directory: C:/Users/vova_/CLionProjects/untitled/cmake-build-debug
-"OperationTests.SumTestFalse" start time: Dec 08 01:33 RTZ 2 (ceia)
+"OperationTests.SumTestFalse" start time: Dec 08 01:56 RTZ 2 (ceia)
 Output:
 ----------------------------------------------------------
 Running main() from C:/Users/vova_/CLionProjects/untitled/google_test/googletest/src/gtest_main.cc
@@ -50,7 +50,7 @@ Note: Google Test filter = OperationTests.SumTestFalse
 Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"OperationTests.SumTestFalse" end time: Dec 08 01:33 RTZ 2 (ceia)
+"OperationTests.SumTestFalse" end time: Dec 08 01:56 RTZ 2 (ceia)
 "OperationTests.SumTestFalse" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -58,7 +58,7 @@ Test Passed.
 3/6 Test: OperationTests.MultTest
 Command: "C:/Users/vova_/CLionProjects/untitled/cmake-build-debug/untitled.exe" "--gtest_filter=OperationTests.MultTest" "--gtest_also_run_disabled_tests"
 Directory: C:/Users/vova_/CLionProjects/untitled/cmake-build-debug
-"OperationTests.MultTest" start time: Dec 08 01:33 RTZ 2 (ceia)
+"OperationTests.MultTest" start time: Dec 08 01:56 RTZ 2 (ceia)
 Output:
 ----------------------------------------------------------
 Running main() from C:/Users/vova_/CLionProjects/untitled/google_test/googletest/src/gtest_main.cc
@@ -77,7 +77,7 @@ Note: Google Test filter = OperationTests.MultTest
 Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"OperationTests.MultTest" end time: Dec 08 01:33 RTZ 2 (ceia)
+"OperationTests.MultTest" end time: Dec 08 01:56 RTZ 2 (ceia)
 "OperationTests.MultTest" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -85,7 +85,7 @@ Test Passed.
 4/6 Test: OperationTests.MultTestFalse
 Command: "C:/Users/vova_/CLionProjects/untitled/cmake-build-debug/untitled.exe" "--gtest_filter=OperationTests.MultTestFalse" "--gtest_also_run_disabled_tests"
 Directory: C:/Users/vova_/CLionProjects/untitled/cmake-build-debug
-"OperationTests.MultTestFalse" start time: Dec 08 01:33 RTZ 2 (ceia)
+"OperationTests.MultTestFalse" start time: Dec 08 01:56 RTZ 2 (ceia)
 Output:
 ----------------------------------------------------------
 Running main() from C:/Users/vova_/CLionProjects/untitled/google_test/googletest/src/gtest_main.cc
@@ -104,7 +104,7 @@ Note: Google Test filter = OperationTests.MultTestFalse
 Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"OperationTests.MultTestFalse" end time: Dec 08 01:33 RTZ 2 (ceia)
+"OperationTests.MultTestFalse" end time: Dec 08 01:56 RTZ 2 (ceia)
 "OperationTests.MultTestFalse" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -112,7 +112,7 @@ Test Passed.
 5/6 Test: OperationTests.MinusTest
 Command: "C:/Users/vova_/CLionProjects/untitled/cmake-build-debug/untitled.exe" "--gtest_filter=OperationTests.MinusTest" "--gtest_also_run_disabled_tests"
 Directory: C:/Users/vova_/CLionProjects/untitled/cmake-build-debug
-"OperationTests.MinusTest" start time: Dec 08 01:33 RTZ 2 (ceia)
+"OperationTests.MinusTest" start time: Dec 08 01:56 RTZ 2 (ceia)
 Output:
 ----------------------------------------------------------
 Running main() from C:/Users/vova_/CLionProjects/untitled/google_test/googletest/src/gtest_main.cc
@@ -131,7 +131,7 @@ Note: Google Test filter = OperationTests.MinusTest
 Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"OperationTests.MinusTest" end time: Dec 08 01:33 RTZ 2 (ceia)
+"OperationTests.MinusTest" end time: Dec 08 01:56 RTZ 2 (ceia)
 "OperationTests.MinusTest" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -139,7 +139,7 @@ Test Passed.
 6/6 Test: OperationTests.MinusTestFalse
 Command: "C:/Users/vova_/CLionProjects/untitled/cmake-build-debug/untitled.exe" "--gtest_filter=OperationTests.MinusTestFalse" "--gtest_also_run_disabled_tests"
 Directory: C:/Users/vova_/CLionProjects/untitled/cmake-build-debug
-"OperationTests.MinusTestFalse" start time: Dec 08 01:33 RTZ 2 (ceia)
+"OperationTests.MinusTestFalse" start time: Dec 08 01:56 RTZ 2 (ceia)
 Output:
 ----------------------------------------------------------
 Running main() from C:/Users/vova_/CLionProjects/untitled/google_test/googletest/src/gtest_main.cc
@@ -158,8 +158,8 @@ Note: Google Test filter = OperationTests.MinusTestFalse
 Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"OperationTests.MinusTestFalse" end time: Dec 08 01:33 RTZ 2 (ceia)
+"OperationTests.MinusTestFalse" end time: Dec 08 01:56 RTZ 2 (ceia)
 "OperationTests.MinusTestFalse" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-End testing: Dec 08 01:33 RTZ 2 (ceia)
+End testing: Dec 08 01:56 RTZ 2 (ceia)
