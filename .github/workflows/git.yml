@@ -10,6 +10,6 @@ jobs:
     - name: cmake
       run: cmake
     - name: make
-      run: cd build && make
+      run: make
     - name: test
       run: test
