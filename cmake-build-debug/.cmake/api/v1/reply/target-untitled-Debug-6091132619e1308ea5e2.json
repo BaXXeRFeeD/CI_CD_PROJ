@@ -99,12 +99,12 @@
 	"dependencies" : 
 	[
 		{
-			"backtrace" : 3,
-			"id" : "gtest_main::@3ef7803e76b6daa2a9c6"
-		},
-		{
 			"backtrace" : 2,
 			"id" : "gtest::@3ef7803e76b6daa2a9c6"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "gtest_main::@3ef7803e76b6daa2a9c6"
 		}
 	],
 	"id" : "untitled::@6890427a1f51a3e7e1df",
