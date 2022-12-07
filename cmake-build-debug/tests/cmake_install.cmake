@@ -37,3 +37,9 @@ if(NOT DEFINED CMAKE_OBJDUMP)
   set(CMAKE_OBJDUMP "C:/Users/vova_/Saved Games/CLion 2022.2.1/bin/mingw/bin/objdump.exe")
 endif()
 
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for each subdirectory.
+  include("C:/Users/vova_/CLionProjects/untitled/cmake-build-debug/_deps/googletest-build/cmake_install.cmake")
+
+endif()
+

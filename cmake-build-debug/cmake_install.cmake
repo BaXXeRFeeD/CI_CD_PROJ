@@ -39,7 +39,8 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("C:/Users/vova_/CLionProjects/untitled/cmake-build-debug/google_test/cmake_install.cmake")
+  include("C:/Users/vova_/CLionProjects/untitled/cmake-build-debug/mymath/cmake_install.cmake")
+  include("C:/Users/vova_/CLionProjects/untitled/cmake-build-debug/tests/cmake_install.cmake")
 
 endif()
 

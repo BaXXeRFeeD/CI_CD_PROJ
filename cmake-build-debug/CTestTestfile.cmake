@@ -4,5 +4,5 @@
 # 
 # This file includes the relevant testing commands required for 
 # testing this directory and lists subdirectories to be tested as well.
-include("C:/Users/vova_/CLionProjects/untitled/cmake-build-debug/untitled[1]_include.cmake")
-subdirs("google_test")
+subdirs("mymath")
+subdirs("tests")
