@@ -8,7 +8,7 @@ jobs:
     steps:
     - uses: actions/checkout@v3
     - name: cmake
-      run: cmake
+      run: cmake -S, -B ./build/
     - name: make
       run: make
     - name: test
