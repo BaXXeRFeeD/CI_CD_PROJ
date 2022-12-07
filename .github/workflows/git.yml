@@ -8,8 +8,8 @@ jobs:
     steps:
     - uses: actions/checkout@v3
     - name: cmake
-      run: cmake -S, -B ./build/
+      run: cmake
     - name: make
       run: cd build && make
     - name: test
-      run: ./build/tests/number_test
+      run: test
