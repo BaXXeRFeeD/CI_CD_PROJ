@@ -4,6 +4,5 @@
 # 
 # This file includes the relevant testing commands required for 
 # testing this directory and lists subdirectories to be tested as well.
-add_test(untitled "untitled")
-set_tests_properties(untitled PROPERTIES  _BACKTRACE_TRIPLES "C:/Users/vova_/CLionProjects/untitled/CMakeLists.txt;15;add_test;C:/Users/vova_/CLionProjects/untitled/CMakeLists.txt;0;")
+include("C:/Users/vova_/CLionProjects/untitled/cmake-build-debug/untitled[1]_include.cmake")
 subdirs("google_test")

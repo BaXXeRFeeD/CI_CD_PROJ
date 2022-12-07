@@ -11,5 +11,5 @@ add_executable(main main.cpp)
 
 target_link_libraries(untitled ${LIBRARIES})
 target_link_libraries(untitled gtest gtest_main)
-
-add_test(untitled untitled)
+include(GoogleTest)
+gtest_discover_tests(untitled)

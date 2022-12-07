@@ -1,2 +1,8 @@
-untitled 9 0.0106249
+untitled 13 0.00590868
+OperationTests.SumTest 2 0.0358897
+OperationTests.SumTestFalse 2 0.0045772
+OperationTests.MultTest 2 0.0042411
+OperationTests.MultTestFalse 2 0.0033422
+OperationTests.MinusTest 2 0.0037873
+OperationTests.MinusTestFalse 2 0.00335705
 ---

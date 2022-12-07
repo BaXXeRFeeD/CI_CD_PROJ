@@ -1,3 +1,165 @@
-Start testing: Dec 08 00:29 RTZ 2 (ceia)
+Start testing: Dec 08 01:33 RTZ 2 (ceia)
 ----------------------------------------------------------
-End testing: Dec 08 00:29 RTZ 2 (ceia)
+1/6 Testing: OperationTests.SumTest
+1/6 Test: OperationTests.SumTest
+Command: "C:/Users/vova_/CLionProjects/untitled/cmake-build-debug/untitled.exe" "--gtest_filter=OperationTests.SumTest" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/vova_/CLionProjects/untitled/cmake-build-debug
+"OperationTests.SumTest" start time: Dec 08 01:33 RTZ 2 (ceia)
+Output:
+----------------------------------------------------------
+Running main() from C:/Users/vova_/CLionProjects/untitled/google_test/googletest/src/gtest_main.cc
+Note: Google Test filter = OperationTests.SumTest
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from OperationTests
+[ RUN      ] OperationTests.SumTest
+[       OK ] OperationTests.SumTest (0 ms)
+[----------] 1 test from OperationTests (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.07 sec
+----------------------------------------------------------
+Test Passed.
+"OperationTests.SumTest" end time: Dec 08 01:33 RTZ 2 (ceia)
+"OperationTests.SumTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/6 Testing: OperationTests.SumTestFalse
+2/6 Test: OperationTests.SumTestFalse
+Command: "C:/Users/vova_/CLionProjects/untitled/cmake-build-debug/untitled.exe" "--gtest_filter=OperationTests.SumTestFalse" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/vova_/CLionProjects/untitled/cmake-build-debug
+"OperationTests.SumTestFalse" start time: Dec 08 01:33 RTZ 2 (ceia)
+Output:
+----------------------------------------------------------
+Running main() from C:/Users/vova_/CLionProjects/untitled/google_test/googletest/src/gtest_main.cc
+Note: Google Test filter = OperationTests.SumTestFalse
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from OperationTests
+[ RUN      ] OperationTests.SumTestFalse
+[       OK ] OperationTests.SumTestFalse (0 ms)
+[----------] 1 test from OperationTests (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"OperationTests.SumTestFalse" end time: Dec 08 01:33 RTZ 2 (ceia)
+"OperationTests.SumTestFalse" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/6 Testing: OperationTests.MultTest
+3/6 Test: OperationTests.MultTest
+Command: "C:/Users/vova_/CLionProjects/untitled/cmake-build-debug/untitled.exe" "--gtest_filter=OperationTests.MultTest" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/vova_/CLionProjects/untitled/cmake-build-debug
+"OperationTests.MultTest" start time: Dec 08 01:33 RTZ 2 (ceia)
+Output:
+----------------------------------------------------------
+Running main() from C:/Users/vova_/CLionProjects/untitled/google_test/googletest/src/gtest_main.cc
+Note: Google Test filter = OperationTests.MultTest
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from OperationTests
+[ RUN      ] OperationTests.MultTest
+[       OK ] OperationTests.MultTest (0 ms)
+[----------] 1 test from OperationTests (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"OperationTests.MultTest" end time: Dec 08 01:33 RTZ 2 (ceia)
+"OperationTests.MultTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/6 Testing: OperationTests.MultTestFalse
+4/6 Test: OperationTests.MultTestFalse
+Command: "C:/Users/vova_/CLionProjects/untitled/cmake-build-debug/untitled.exe" "--gtest_filter=OperationTests.MultTestFalse" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/vova_/CLionProjects/untitled/cmake-build-debug
+"OperationTests.MultTestFalse" start time: Dec 08 01:33 RTZ 2 (ceia)
+Output:
+----------------------------------------------------------
+Running main() from C:/Users/vova_/CLionProjects/untitled/google_test/googletest/src/gtest_main.cc
+Note: Google Test filter = OperationTests.MultTestFalse
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from OperationTests
+[ RUN      ] OperationTests.MultTestFalse
+[       OK ] OperationTests.MultTestFalse (0 ms)
+[----------] 1 test from OperationTests (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"OperationTests.MultTestFalse" end time: Dec 08 01:33 RTZ 2 (ceia)
+"OperationTests.MultTestFalse" time elapsed: 00:00:00
+----------------------------------------------------------
+
+5/6 Testing: OperationTests.MinusTest
+5/6 Test: OperationTests.MinusTest
+Command: "C:/Users/vova_/CLionProjects/untitled/cmake-build-debug/untitled.exe" "--gtest_filter=OperationTests.MinusTest" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/vova_/CLionProjects/untitled/cmake-build-debug
+"OperationTests.MinusTest" start time: Dec 08 01:33 RTZ 2 (ceia)
+Output:
+----------------------------------------------------------
+Running main() from C:/Users/vova_/CLionProjects/untitled/google_test/googletest/src/gtest_main.cc
+Note: Google Test filter = OperationTests.MinusTest
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from OperationTests
+[ RUN      ] OperationTests.MinusTest
+[       OK ] OperationTests.MinusTest (0 ms)
+[----------] 1 test from OperationTests (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"OperationTests.MinusTest" end time: Dec 08 01:33 RTZ 2 (ceia)
+"OperationTests.MinusTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+6/6 Testing: OperationTests.MinusTestFalse
+6/6 Test: OperationTests.MinusTestFalse
+Command: "C:/Users/vova_/CLionProjects/untitled/cmake-build-debug/untitled.exe" "--gtest_filter=OperationTests.MinusTestFalse" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/vova_/CLionProjects/untitled/cmake-build-debug
+"OperationTests.MinusTestFalse" start time: Dec 08 01:33 RTZ 2 (ceia)
+Output:
+----------------------------------------------------------
+Running main() from C:/Users/vova_/CLionProjects/untitled/google_test/googletest/src/gtest_main.cc
+Note: Google Test filter = OperationTests.MinusTestFalse
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from OperationTests
+[ RUN      ] OperationTests.MinusTestFalse
+[       OK ] OperationTests.MinusTestFalse (0 ms)
+[----------] 1 test from OperationTests (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"OperationTests.MinusTestFalse" end time: Dec 08 01:33 RTZ 2 (ceia)
+"OperationTests.MinusTestFalse" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Dec 08 01:33 RTZ 2 (ceia)
