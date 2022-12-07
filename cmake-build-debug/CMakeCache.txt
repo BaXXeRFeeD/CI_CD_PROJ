@@ -200,25 +200,25 @@ CMAKE_OBJCOPY:FILEPATH=C:/Users/vova_/Saved Games/CLion 2022.2.1/bin/mingw/bin/o
 CMAKE_OBJDUMP:FILEPATH=C:/Users/vova_/Saved Games/CLion 2022.2.1/bin/mingw/bin/objdump.exe
 
 //Value Computed by CMake
-CMAKE_PROJECT_DESCRIPTION:STATIC=
+CMAKE_PROJECT_DESCRIPTION:STATIC=C++
 
 //Value Computed by CMake
 CMAKE_PROJECT_HOMEPAGE_URL:STATIC=
 
 //Value Computed by CMake
-CMAKE_PROJECT_NAME:STATIC=project
+CMAKE_PROJECT_NAME:STATIC=lab
 
 //Value Computed by CMake
-CMAKE_PROJECT_VERSION:STATIC=1.12.1
+CMAKE_PROJECT_VERSION:STATIC=1.0
 
 //Value Computed by CMake
 CMAKE_PROJECT_VERSION_MAJOR:STATIC=1
 
 //Value Computed by CMake
-CMAKE_PROJECT_VERSION_MINOR:STATIC=12
+CMAKE_PROJECT_VERSION_MINOR:STATIC=0
 
 //Value Computed by CMake
-CMAKE_PROJECT_VERSION_PATCH:STATIC=1
+CMAKE_PROJECT_VERSION_PATCH:STATIC=
 
 //Value Computed by CMake
 CMAKE_PROJECT_VERSION_TWEAK:STATIC=
@@ -306,6 +306,29 @@ CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
 //Single output directory for building all executables.
 EXECUTABLE_OUTPUT_PATH:PATH=
 
+//Directory under which to collect all populated content
+FETCHCONTENT_BASE_DIR:PATH=C:/Users/vova_/CLionProjects/untitled/cmake-build-debug/_deps
+
+//Disables all attempts to download or update content and assumes
+// source dirs already exist
+FETCHCONTENT_FULLY_DISCONNECTED:BOOL=OFF
+
+//Enables QUIET option for all content population
+FETCHCONTENT_QUIET:BOOL=ON
+
+//When not empty, overrides where to find pre-populated content
+// for googletest
+FETCHCONTENT_SOURCE_DIR_GOOGLETEST:PATH=
+
+//Enables UPDATE_DISCONNECTED behavior for all content population
+FETCHCONTENT_UPDATES_DISCONNECTED:BOOL=OFF
+
+//Enables UPDATE_DISCONNECTED behavior just for population of googletest
+FETCHCONTENT_UPDATES_DISCONNECTED_GOOGLETEST:BOOL=OFF
+
+//Git command line client
+GIT_EXECUTABLE:FILEPATH=C:/Program Files/Git/cmd/git.exe
+
 //Use Abseil and RE2. Requires Abseil and RE2 to be separately
 // added to the build.
 GTEST_HAS_ABSL:BOOL=OFF
@@ -318,7 +341,7 @@ INSTALL_GTEST:BOOL=ON
 LIBRARY_OUTPUT_PATH:PATH=
 
 //Value Computed by CMake
-gmock_BINARY_DIR:STATIC=C:/Users/vova_/CLionProjects/untitled/cmake-build-debug/google_test/googlemock
+gmock_BINARY_DIR:STATIC=C:/Users/vova_/CLionProjects/untitled/cmake-build-debug/_deps/googletest-build/googlemock
 
 //Value Computed by CMake
 gmock_IS_TOP_LEVEL:STATIC=OFF
@@ -327,7 +350,7 @@ gmock_IS_TOP_LEVEL:STATIC=OFF
 gmock_LIB_DEPENDS:STATIC=general;gtest;
 
 //Value Computed by CMake
-gmock_SOURCE_DIR:STATIC=C:/Users/vova_/CLionProjects/untitled/google_test/googlemock
+gmock_SOURCE_DIR:STATIC=C:/Users/vova_/CLionProjects/untitled/cmake-build-debug/_deps/googletest-src/googlemock
 
 //Build all of Google Mock's own tests.
 gmock_build_tests:BOOL=OFF
@@ -336,22 +359,22 @@ gmock_build_tests:BOOL=OFF
 gmock_main_LIB_DEPENDS:STATIC=general;gmock;
 
 //Value Computed by CMake
-googletest-distribution_BINARY_DIR:STATIC=C:/Users/vova_/CLionProjects/untitled/cmake-build-debug/google_test
+googletest-distribution_BINARY_DIR:STATIC=C:/Users/vova_/CLionProjects/untitled/cmake-build-debug/_deps/googletest-build
 
 //Value Computed by CMake
 googletest-distribution_IS_TOP_LEVEL:STATIC=OFF
 
 //Value Computed by CMake
-googletest-distribution_SOURCE_DIR:STATIC=C:/Users/vova_/CLionProjects/untitled/google_test
+googletest-distribution_SOURCE_DIR:STATIC=C:/Users/vova_/CLionProjects/untitled/cmake-build-debug/_deps/googletest-src
 
 //Value Computed by CMake
-gtest_BINARY_DIR:STATIC=C:/Users/vova_/CLionProjects/untitled/cmake-build-debug/google_test/googletest
+gtest_BINARY_DIR:STATIC=C:/Users/vova_/CLionProjects/untitled/cmake-build-debug/_deps/googletest-build/googletest
 
 //Value Computed by CMake
 gtest_IS_TOP_LEVEL:STATIC=OFF
 
 //Value Computed by CMake
-gtest_SOURCE_DIR:STATIC=C:/Users/vova_/CLionProjects/untitled/google_test/googletest
+gtest_SOURCE_DIR:STATIC=C:/Users/vova_/CLionProjects/untitled/cmake-build-debug/_deps/googletest-src/googletest
 
 //Build gtest's sample programs.
 gtest_build_samples:BOOL=OFF
@@ -364,13 +387,22 @@ gtest_disable_pthreads:BOOL=OFF
 
 //Use shared (DLL) run-time lib even when Google Test is built
 // as static lib.
-gtest_force_shared_crt:BOOL=OFF
+gtest_force_shared_crt:BOOL=ON
 
 //Build gtest with internal symbols hidden in shared libraries.
 gtest_hide_internal_symbols:BOOL=OFF
 
 //Dependencies for the target
 gtest_main_LIB_DEPENDS:STATIC=general;gtest;
+
+//Value Computed by CMake
+lab_BINARY_DIR:STATIC=C:/Users/vova_/CLionProjects/untitled/cmake-build-debug
+
+//Value Computed by CMake
+lab_IS_TOP_LEVEL:STATIC=ON
+
+//Value Computed by CMake
+lab_SOURCE_DIR:STATIC=C:/Users/vova_/CLionProjects/untitled
 
 //Value Computed by CMake
 project_BINARY_DIR:STATIC=C:/Users/vova_/CLionProjects/untitled/cmake-build-debug
@@ -525,7 +557,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=4
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=6
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP
@@ -581,15 +613,17 @@ CMAKE_STRIP-ADVANCED:INTERNAL=1
 CMAKE_VERBOSE_MAKEFILE-ADVANCED:INTERNAL=1
 //Details about finding Python
 FIND_PACKAGE_MESSAGE_DETAILS_Python:INTERNAL=[C:/Users/vova_/AppData/Local/Programs/Python/Python310/python.exe][cfound components: Interpreter ][v3.10.7()]
+//ADVANCED property for variable: GIT_EXECUTABLE
+GIT_EXECUTABLE-ADVANCED:INTERNAL=1
 //CMAKE_INSTALL_PREFIX during last run
 _GNUInstallDirs_LAST_CMAKE_INSTALL_PREFIX:INTERNAL=C:/Program Files (x86)/untitled
 //Path to a program.
 _Python_EXECUTABLE:INTERNAL=C:/Users/vova_/AppData/Local/Programs/Python/Python310/python.exe
 //Python Properties
 _Python_INTERPRETER_PROPERTIES:INTERNAL=Python;3;10;7;64;;cp310-win_amd64;C:\Users\vova_\AppData\Local\Programs\Python\Python310\Lib;C:\Users\vova_\AppData\Local\Programs\Python\Python310\Lib;C:\Users\vova_\AppData\Local\Programs\Python\Python310\Lib\site-packages;C:\Users\vova_\AppData\Local\Programs\Python\Python310\Lib\site-packages
-_Python_INTERPRETER_SIGNATURE:INTERNAL=4366c40ae8112706a0520e48fcf646a3
+_Python_INTERPRETER_SIGNATURE:INTERNAL=05902262dbc3b42d9619d88ed4ad9840
 cmake_package_name:INTERNAL=GTest
-generated_dir:INTERNAL=C:/Users/vova_/CLionProjects/untitled/cmake-build-debug/google_test/googletest/generated
+generated_dir:INTERNAL=C:/Users/vova_/CLionProjects/untitled/cmake-build-debug/_deps/googletest-build/googletest/generated
 //ADVANCED property for variable: gmock_build_tests
 gmock_build_tests-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: gtest_build_samples
