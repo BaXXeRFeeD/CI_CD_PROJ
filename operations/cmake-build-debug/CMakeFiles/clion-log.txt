@@ -1,0 +1,1 @@
+CMakeLists.txt not found in C:\Users\vova_\CLionProjects\untitled\operations Select CMakeLists.txt
