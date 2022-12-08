@@ -1,3 +1,1 @@
-add_executable(${PROJECT_NAME} main.cpp  mymath.h)
-
-target_include_directories(${PROJECT_NAME} PUBLIC ${PROJECT_SOURCE_DIR})
+add_library(mymath mymath.h mymath.cpp mymath.cpp)
