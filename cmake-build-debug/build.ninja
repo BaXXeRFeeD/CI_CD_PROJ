@@ -40,6 +40,40 @@ include CMakeFiles/rules.ninja
 # Logical path to working directory; prefix for absolute paths.
 
 cmake_ninja_workdir = C$:/Users/vova_/CLionProjects/untitled/cmake-build-debug/
+# =============================================================================
+# Object build statements for EXECUTABLE target lab
+
+
+#############################################
+# Order-only phony target for lab
+
+build cmake_object_order_depends_target_lab: phony || cmake_object_order_depends_target_mymath
+
+build CMakeFiles/lab.dir/main.cpp.obj: CXX_COMPILER__lab_Debug C$:/Users/vova_/CLionProjects/untitled/main.cpp || cmake_object_order_depends_target_lab
+  DEP_FILE = CMakeFiles\lab.dir\main.cpp.obj.d
+  FLAGS = -g -std=gnu++17
+  INCLUDES = -IC:/Users/vova_/CLionProjects/untitled
+  OBJECT_DIR = CMakeFiles\lab.dir
+  OBJECT_FILE_DIR = CMakeFiles\lab.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target lab
+
+
+#############################################
+# Link the executable lab.exe
+
+build lab.exe: CXX_EXECUTABLE_LINKER__lab_Debug CMakeFiles/lab.dir/main.cpp.obj | mymath/libmymath.a || mymath/libmymath.a
+  FLAGS = -g
+  LINK_LIBRARIES = mymath/libmymath.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\lab.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = lab.exe
+  TARGET_IMPLIB = liblab.dll.a
+  TARGET_PDB = lab.exe.dbg
+
 
 #############################################
 # Utility command for test
@@ -123,38 +157,35 @@ build install/strip: phony CMakeFiles/install/strip.util
 # =============================================================================
 
 # =============================================================================
-# Object build statements for EXECUTABLE target lab
+# Object build statements for STATIC_LIBRARY target mymath
 
 
 #############################################
-# Order-only phony target for lab
+# Order-only phony target for mymath
 
-build cmake_object_order_depends_target_lab: phony || mymath/CMakeFiles/lab.dir
+build cmake_object_order_depends_target_mymath: phony || mymath/CMakeFiles/mymath.dir
 
-build mymath/CMakeFiles/lab.dir/main.cpp.obj: CXX_COMPILER__lab_Debug C$:/Users/vova_/CLionProjects/untitled/mymath/main.cpp || cmake_object_order_depends_target_lab
-  DEP_FILE = mymath\CMakeFiles\lab.dir\main.cpp.obj.d
+build mymath/CMakeFiles/mymath.dir/mymath.cpp.obj: CXX_COMPILER__mymath_Debug C$:/Users/vova_/CLionProjects/untitled/mymath/mymath.cpp || cmake_object_order_depends_target_mymath
+  DEP_FILE = mymath\CMakeFiles\mymath.dir\mymath.cpp.obj.d
   FLAGS = -g -std=gnu++17
-  INCLUDES = -IC:/Users/vova_/CLionProjects/untitled
-  OBJECT_DIR = mymath\CMakeFiles\lab.dir
-  OBJECT_FILE_DIR = mymath\CMakeFiles\lab.dir
+  OBJECT_DIR = mymath\CMakeFiles\mymath.dir
+  OBJECT_FILE_DIR = mymath\CMakeFiles\mymath.dir
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target lab
+# Link build statements for STATIC_LIBRARY target mymath
 
 
 #############################################
-# Link the executable mymath\lab.exe
+# Link the static library mymath\libmymath.a
 
-build mymath/lab.exe: CXX_EXECUTABLE_LINKER__lab_Debug mymath/CMakeFiles/lab.dir/main.cpp.obj
-  FLAGS = -g
-  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = mymath\CMakeFiles\lab.dir
+build mymath/libmymath.a: CXX_STATIC_LIBRARY_LINKER__mymath_Debug mymath/CMakeFiles/mymath.dir/mymath.cpp.obj
+  LANGUAGE_COMPILE_FLAGS = -g
+  OBJECT_DIR = mymath\CMakeFiles\mymath.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = mymath\lab.exe
-  TARGET_IMPLIB = mymath\liblab.dll.a
-  TARGET_PDB = lab.exe.dbg
+  TARGET_FILE = mymath\libmymath.a
+  TARGET_PDB = mymath.a.dbg
 
 
 #############################################
@@ -245,7 +276,7 @@ build mymath/install/strip: phony mymath/CMakeFiles/install/strip.util
 #############################################
 # Order-only phony target for tests
 
-build cmake_object_order_depends_target_tests: phony || cmake_object_order_depends_target_gtest cmake_object_order_depends_target_gtest_main
+build cmake_object_order_depends_target_tests: phony || cmake_object_order_depends_target_gtest cmake_object_order_depends_target_gtest_main cmake_object_order_depends_target_mymath
 
 build tests/CMakeFiles/tests.dir/test.cpp.obj: CXX_COMPILER__tests_Debug C$:/Users/vova_/CLionProjects/untitled/tests/test.cpp || cmake_object_order_depends_target_tests
   DEP_FILE = tests\CMakeFiles\tests.dir\test.cpp.obj.d
@@ -262,9 +293,9 @@ build tests/CMakeFiles/tests.dir/test.cpp.obj: CXX_COMPILER__tests_Debug C$:/Use
 #############################################
 # Link the executable tests\tests.exe
 
-build tests/tests.exe tests/tests[1]_tests.cmake | ${cmake_ninja_workdir}tests/tests[1]_tests.cmake: CXX_EXECUTABLE_LINKER__tests_Debug tests/CMakeFiles/tests.dir/test.cpp.obj | lib/libgtest_main.a lib/libgtest.a || lib/libgtest.a lib/libgtest_main.a
+build tests/tests.exe tests/tests[1]_tests.cmake | ${cmake_ninja_workdir}tests/tests[1]_tests.cmake: CXX_EXECUTABLE_LINKER__tests_Debug tests/CMakeFiles/tests.dir/test.cpp.obj | mymath/libmymath.a lib/libgtest_main.a lib/libgtest.a || lib/libgtest.a lib/libgtest_main.a mymath/libmymath.a
   FLAGS = -g
-  LINK_LIBRARIES = lib/libgtest_main.a  lib/libgtest.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  LINK_LIBRARIES = mymath/libmymath.a  lib/libgtest_main.a  lib/libgtest.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = tests\CMakeFiles\tests.dir
   POST_BUILD = cmd.exe /C "cd /D C:\Users\vova_\CLionProjects\untitled\cmake-build-debug\tests && "C:\Users\vova_\Saved Games\CLion 2022.2.1\bin\cmake\win\bin\cmake.exe" -D TEST_TARGET=tests -D TEST_EXECUTABLE=C:/Users/vova_/CLionProjects/untitled/cmake-build-debug/tests/tests.exe -D TEST_EXECUTOR= -D TEST_WORKING_DIR=C:/Users/vova_/CLionProjects/untitled/cmake-build-debug/tests -D TEST_EXTRA_ARGS= -D TEST_PROPERTIES= -D TEST_PREFIX= -D TEST_SUFFIX= -D TEST_FILTER= -D NO_PRETTY_TYPES=FALSE -D NO_PRETTY_VALUES=FALSE -D TEST_LIST=tests_TESTS -D CTEST_FILE=C:/Users/vova_/CLionProjects/untitled/cmake-build-debug/tests/tests[1]_tests.cmake -D TEST_DISCOVERY_TIMEOUT=5 -D TEST_XML_OUTPUT_DIR= -P "C:/Users/vova_/Saved Games/CLion 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/GoogleTestAddTests.cmake""
   PRE_LINK = cd .
@@ -735,9 +766,7 @@ build gtest: phony lib/libgtest.a
 
 build gtest_main: phony lib/libgtest_main.a
 
-build lab: phony mymath/lab.exe
-
-build lab.exe: phony mymath/lab.exe
+build lab: phony lab.exe
 
 build libgmock.a: phony lib/libgmock.a
 
@@ -746,6 +775,10 @@ build libgmock_main.a: phony lib/libgmock_main.a
 build libgtest.a: phony lib/libgtest.a
 
 build libgtest_main.a: phony lib/libgtest_main.a
+
+build libmymath.a: phony mymath/libmymath.a
+
+build mymath: phony mymath/libmymath.a
 
 build tests: phony tests/tests.exe
 
@@ -759,7 +792,7 @@ build tests.exe: phony tests/tests.exe
 #############################################
 # Folder: C:/Users/vova_/CLionProjects/untitled/cmake-build-debug
 
-build all: phony mymath/all tests/all
+build all: phony lab.exe mymath/all tests/all
 
 # =============================================================================
 
@@ -787,7 +820,7 @@ build _deps/googletest-build/googletest/all: phony lib/libgtest.a lib/libgtest_m
 #############################################
 # Folder: C:/Users/vova_/CLionProjects/untitled/cmake-build-debug/mymath
 
-build mymath/all: phony mymath/lab.exe
+build mymath/all: phony mymath/libmymath.a
 
 # =============================================================================
 

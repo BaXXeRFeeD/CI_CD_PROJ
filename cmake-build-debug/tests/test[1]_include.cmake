@@ -1,0 +1,5 @@
+if(EXISTS "C:/Users/vova_/CLionProjects/untitled/cmake-build-debug/tests/test[1]_tests.cmake")
+  include("C:/Users/vova_/CLionProjects/untitled/cmake-build-debug/tests/test[1]_tests.cmake")
+else()
+  add_test(test_NOT_BUILT test_NOT_BUILT)
+endif()

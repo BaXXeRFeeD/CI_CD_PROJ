@@ -1,3 +1,4 @@
+C:/Users/vova_/CLionProjects/untitled/cmake-build-debug/CMakeFiles/lab.dir
 C:/Users/vova_/CLionProjects/untitled/cmake-build-debug/CMakeFiles/test.dir
 C:/Users/vova_/CLionProjects/untitled/cmake-build-debug/CMakeFiles/edit_cache.dir
 C:/Users/vova_/CLionProjects/untitled/cmake-build-debug/CMakeFiles/rebuild_cache.dir
@@ -5,7 +6,7 @@ C:/Users/vova_/CLionProjects/untitled/cmake-build-debug/CMakeFiles/list_install_
 C:/Users/vova_/CLionProjects/untitled/cmake-build-debug/CMakeFiles/install.dir
 C:/Users/vova_/CLionProjects/untitled/cmake-build-debug/CMakeFiles/install/local.dir
 C:/Users/vova_/CLionProjects/untitled/cmake-build-debug/CMakeFiles/install/strip.dir
-C:/Users/vova_/CLionProjects/untitled/cmake-build-debug/mymath/CMakeFiles/lab.dir
+C:/Users/vova_/CLionProjects/untitled/cmake-build-debug/mymath/CMakeFiles/mymath.dir
 C:/Users/vova_/CLionProjects/untitled/cmake-build-debug/mymath/CMakeFiles/test.dir
 C:/Users/vova_/CLionProjects/untitled/cmake-build-debug/mymath/CMakeFiles/edit_cache.dir
 C:/Users/vova_/CLionProjects/untitled/cmake-build-debug/mymath/CMakeFiles/rebuild_cache.dir
